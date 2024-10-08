@@ -1,0 +1,14 @@
+[Unit]
+Description=Faperta Modbus Api Relay
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/inastek/Desktop/fapertaNew/api_relay.py
+Restart=always
+RestartSec=3
+User=inastek
+WorkingDirectory=/home/inastek/Desktop/fapertaNew
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
