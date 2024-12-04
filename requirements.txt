@@ -1,3 +1,5 @@
 requests
 pymodbus
+selenium
+pynput
 python-snap7
