@@ -7,7 +7,7 @@ This program made for IPC to read sensor then send it to API and read feedback f
 Download and install [python3](https://www.python.org/downloads) and requirements to run this program.
 
 ```bash
-sudo apt install python python-pip python-dev build-essential -y
+sudo apt install python3 python3-pip python3-dev build-essential -y
 
 sudo pip install --upgrade pip 
 
